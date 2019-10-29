@@ -1,6 +1,7 @@
 <h1>GoBarber</h1>
 <h3>Backend</h3>
-<p>A rest full api to manage a barbershop. <p><a href="https://github.com/jonathanwdev/GoBarber/tree/master/api"></a><br>
+<p>A rest full api to manage a barbershop. <p>
+<a href="https://github.com/jonathanwdev/GoBarber/tree/master/api">Read more</a><br>
   <p>
     <img src="zImages/backend.png" with="450">
   </p>
