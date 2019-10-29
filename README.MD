@@ -2,7 +2,7 @@
 <h3>Backend</h3>
 <p>A rest full api to manage a barbershop <a src="https://github.com/jonathanwdev/GoBarber/tree/master/api">Read more</a><p><br>
   <p>
-    <img src="images/backend.png" with="450">
+    <img src="zImages/backend.png" with="450">
   </p>
  <hr>
 
