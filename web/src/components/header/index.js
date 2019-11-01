@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Notifications from '../Notifications';
+
 import logo from '~/assets/headerLogo.svg';
 import { Container, Profile, Content } from './styles';
 
@@ -12,6 +14,7 @@ export default function header() {
           <Link to="/dashboard">DASHBOARD</Link>
         </nav>
         <aside>
+          <Notifications />
           <Profile>
             <div>
               <strong>My Name</strong>
