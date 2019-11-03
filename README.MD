@@ -11,12 +11,12 @@
  <p>A Single page application</p>
  <a href="https://github.com/jonathanwdev/GoBarber/tree/master/web">Read more</a><br>
  <p>
-  <img src="src/assets/print1.png" width="350">
-  <img src="src/assets/print2.png" width="350">
-  <img src="src/assets/print3.png" width="350">
-  <img src="src/assets/print4.png" width="350">
-  <img src="src/assets/print5.png" width="350">
-  <img src="src/assets/print6.png" width="350">
+  <img src="zImages/print1.png" width="350">
+  <img src="zImages/print2.png" width="350">
+  <img src="zImages/print3.png" width="350">
+  <img src="zImages/print4.png" width="350">
+  <img src="zImages/print5.png" width="350">
+  <img src="zImages/print6.png" width="350">
  </p>
 
  <hr>
