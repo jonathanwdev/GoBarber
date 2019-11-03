@@ -7,16 +7,13 @@ gerenciar um barber shop.</h3>
 <h5>PostgreSQL(Funcionalidades comuns e com multiplos relacionamentos)</h5>
 <h5>MongoDB(Trabalhar com as notificações e verificação de "leitura")</h5>
 <h5>Redis(Trabalhar com filas(backgroundJobs) durante o envio de emails)</h5>
+    <b>Docker</b><br>
+    Utilizado para criar o container com a imagem do PostgreSQL<br>
+    Utilizado para criar o container com a imagem do MongoDB<br>
+    Utilizado para criar o container com a imagem do Redis<br>
 
 <h3>Dependencies :</h3>
 <ul>
-
-  <li>
-    <b>Docker</b><br>
-    Utilizado para criar o container com a imagem do PostgreSQL
-    Utilizado para criar o container com a imagem do MongoDB
-    Utilizado para criar o container com a imagem do Redis
-  </li>
 
   <li>
     <b>BeeQueue</b><br>
