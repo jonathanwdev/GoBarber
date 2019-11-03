@@ -30,6 +30,7 @@ export const Badge = styled.button`
 export const NotificationList = styled.div`
   position: absolute;
   width: 260px;
+  z-index: 1;
   left: calc(50% - 130px);
   top: calc(100% + 30px);
   background: rgba(0, 0, 0, 0.6);

@@ -8,7 +8,16 @@
  <hr>
 
  <h3>I'm working on it with React.JS+Redux</h3>
- <p>Development......</p>
+ <p>A Single page application</p>
+ <a href="https://github.com/jonathanwdev/GoBarber/tree/master/web">Read more</a><br>
+ <p>
+  <img src="src/assets/print1.png" width="350">
+  <img src="src/assets/print2.png" width="350">
+  <img src="src/assets/print3.png" width="350">
+  <img src="src/assets/print4.png" width="350">
+  <img src="src/assets/print5.png" width="350">
+  <img src="src/assets/print6.png" width="350">
+ </p>
 
  <hr>
 
