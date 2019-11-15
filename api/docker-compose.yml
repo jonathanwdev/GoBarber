@@ -1,0 +1,33 @@
+version: '3.3'
+volumes:
+  data:
+services:
+  postgres:
+    image: postgres:11.1-alpine
+    restart: always
+    container_name: gobarber-postgres
+    working_dir: /application
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=gobarber
+    ports:
+      - '5432:5432'
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - '27017:27017'
+    # environment:
+    #   MONGO_INITDB_ROOT_USERNAME: root
+    #   MONGO_INITDB_ROOT_PASSWORD: example
+  redis:
+    image: redis:alpine
+    ports:
+      - '6379:6379'
+
+# docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+# docker run --name mongobarber -p 27017:27017 -d -t mongo
+# docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
