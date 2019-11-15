@@ -1,4 +1,7 @@
 <h1>API REST (GoBarber)</h1>
+1: Run  docker-compose up
+2: Start the server run : yarn dev
+
 <h3>Uma api desenvolvida com o framework não opinativo(ExpressJS) com o objetivo de
 gerenciar um barber shop.</h3>
 <h3>Funcionalidades:<h3>
