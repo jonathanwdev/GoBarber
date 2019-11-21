@@ -13,7 +13,7 @@ export default function user(state = INITIAL_STATE, action) {
       }
 
       case '@user/UPDATE_PROFILE_SUCCESS': {
-        draft.profile = action.payload;
+        draft.profile = action.payload.profile;
         break;
       }
 

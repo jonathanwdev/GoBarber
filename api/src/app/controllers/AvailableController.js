@@ -7,10 +7,11 @@ import {
   format,
   isAfter,
 } from 'date-fns';
+import pt from 'date-fns/locale/pt';
 import { Op } from 'sequelize';
 import Appointment from '../models/Appointment';
 
-class AvaliableController {
+class AvailableController {
   async index(req, res) {
     const { date } = req.query;
     if (!date) {
@@ -40,9 +41,11 @@ class AvaliableController {
       '17:00',
       '18:00',
       '19:00',
+      '20:00',
+      '21:00',
     ];
 
-    const avaliable = schedule.map(time => {
+    const available = schedule.map(time => {
       const [hour, minute] = time.split(':');
       const value = setSeconds(
         setMinutes(setHours(searchDate, hour), minute),
@@ -50,15 +53,15 @@ class AvaliableController {
       );
       return {
         time,
-        value: format(value, "yyyy-MM-dd'T'HH:mm:ssxxx"),
-        avaliable:
+        value: format(value, "yyyy-MM-dd'T'HH:mm:ssXXX"),
+        available:
           isAfter(value, new Date()) &&
           !appointments.find(a => format(a.date, 'HH:mm') === time),
       };
     });
 
-    res.json(avaliable);
+    res.json(available);
   }
 }
 
-export default new AvaliableController();
+export default new AvailableController();

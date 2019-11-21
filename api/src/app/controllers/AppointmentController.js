@@ -94,7 +94,7 @@ class AppointmentController {
     if (checkAvailability) {
       return res
         .status(400)
-        .json({ error: 'Appointment date is not avaliable' });
+        .json({ error: 'Appointment date is not available' });
     }
 
     const appointment = await Appointment.create({
