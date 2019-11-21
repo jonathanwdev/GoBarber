@@ -36,7 +36,7 @@ PostgreSQL, MongoDB and Redis.<br>
 <a href="https://github.com/jonathanwdev/GoBarber/tree/master/mobile">Read more</a><br>
 
  <p>
-  <img src="zImages/mobile1.png" >
-  <img src="zImages/mobile2.png" >
+  <img src="zImages/mobile1.png" width="350" >
+  <img src="zImages/mobile2.png" width="350">
  
  </p>
