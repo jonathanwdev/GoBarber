@@ -7,7 +7,6 @@ import {
   format,
   isAfter,
 } from 'date-fns';
-import pt from 'date-fns/locale/pt';
 import { Op } from 'sequelize';
 import Appointment from '../models/Appointment';
 
